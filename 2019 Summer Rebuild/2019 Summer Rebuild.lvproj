@@ -96,6 +96,13 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Global Variables" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Robot States.vi" Type="VI" URL="../../2019 Rebuild Robot Project/Robot States.vi"/>
+			<Item Name="Climb States.vi" Type="VI" URL="../../2019 Rebuild Robot Project/Climb States.vi"/>
+			<Item Name="Motor Power.vi" Type="VI" URL="../../2019 Rebuild Robot Project/Motor Power.vi"/>
+			<Item Name="Indicators.vi" Type="VI" URL="../../2019 Rebuild Robot Project/Indicators.vi"/>
+		</Item>
 		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
