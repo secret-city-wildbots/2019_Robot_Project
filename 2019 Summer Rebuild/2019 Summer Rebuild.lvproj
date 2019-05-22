@@ -98,10 +98,10 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Global Variables" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Robot States.vi" Type="VI" URL="../../2019 Rebuild Robot Project/Robot States.vi"/>
-			<Item Name="Climb States.vi" Type="VI" URL="../../2019 Rebuild Robot Project/Climb States.vi"/>
-			<Item Name="Motor Power.vi" Type="VI" URL="../../2019 Rebuild Robot Project/Motor Power.vi"/>
-			<Item Name="Indicators.vi" Type="VI" URL="../../2019 Rebuild Robot Project/Indicators.vi"/>
+			<Item Name="Robot States.vi" Type="VI" URL="../Robot States.vi"/>
+			<Item Name="Climb States.vi" Type="VI" URL="../Climb States.vi"/>
+			<Item Name="Motor Power.vi" Type="VI" URL="../Motor Power.vi"/>
+			<Item Name="Indicators.vi" Type="VI" URL="../Indicators.vi"/>
 		</Item>
 		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
