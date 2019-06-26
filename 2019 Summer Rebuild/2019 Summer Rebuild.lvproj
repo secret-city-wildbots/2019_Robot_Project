@@ -98,11 +98,12 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Drive Base" Type="Folder">
+			<Item Name="Auto Shifting.vi" Type="VI" URL="../Auto Shifting.vi"/>
+			<Item Name="Drive Base.vi" Type="VI" URL="../Drive Base.vi"/>
 			<Item Name="WildDrive.vi" Type="VI" URL="../WildDrive.vi"/>
 		</Item>
 		<Item Name="Driver Station" Type="Folder">
 			<Item Name="DashboardGet.vi" Type="VI" URL="../../../../../../../Dropbox/FRC 4265 Programming 2019/Robot/Development/DeepSpaceRobot/DashboardGet.vi"/>
-			<Item Name="Drive Base.vi" Type="VI" URL="../Drive Base.vi"/>
 		</Item>
 		<Item Name="Global Variables" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -115,12 +116,15 @@ AddOutputFilter chunkFilter
 			<Item Name="RefNumsDriverStation.vi" Type="VI" URL="../../../../../../../Dropbox/FRC 4265 Programming 2019/Robot/Development/DeepSpaceRobot/RefNumsDriverStation.vi"/>
 			<Item Name="RefNums_Sensors.vi" Type="VI" URL="../RefNums_Sensors.vi"/>
 			<Item Name="Robot States.vi" Type="VI" URL="../Robot States.vi"/>
+			<Item Name="Sensor Readings.vi" Type="VI" URL="../Sensor Readings.vi"/>
 		</Item>
 		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="Rising Edge Trigger.vi" Type="VI" URL="../Rising Edge Trigger.vi"/>
+			<Item Name="Time Above Threshold.vi" Type="VI" URL="../Time Above Threshold.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
