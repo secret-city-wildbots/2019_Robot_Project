@@ -106,6 +106,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Driver Station" Type="Folder">
 			<Item Name="DashboardGet.vi" Type="VI" URL="../../../../../../../Dropbox/FRC 4265 Programming 2019/Robot/Development/DeepSpaceRobot/DashboardGet.vi"/>
 		</Item>
+		<Item Name="End Effectors" Type="Folder">
+			<Item Name="Elevator State Control.vi" Type="VI" URL="../../../../../../../Dropbox/FRC 4265 Programming 2019/Robot/Development/DeepSpaceRobot/Elevator State Control.vi"/>
+		</Item>
 		<Item Name="Global Variables" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Climb States.vi" Type="VI" URL="../Climb States.vi"/>
@@ -124,6 +127,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="Elevator State Select.vi" Type="VI" URL="../../../../../../../Dropbox/FRC 4265 Programming 2019/Robot/Development/DeepSpaceRobot/Elevator State Select.vi"/>
 			<Item Name="Rising Edge Trigger.vi" Type="VI" URL="../Rising Edge Trigger.vi"/>
 			<Item Name="Time Above Threshold.vi" Type="VI" URL="../Time Above Threshold.vi"/>
 			<Item Name="Trigger Update Dynamic.vi" Type="VI" URL="../Trigger Update Dynamic.vi"/>
