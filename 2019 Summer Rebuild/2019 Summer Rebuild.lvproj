@@ -102,22 +102,26 @@ AddOutputFilter chunkFilter
 			<Item Name="Drive Base.vi" Type="VI" URL="../Drive Base.vi"/>
 			<Item Name="WildDrive.vi" Type="VI" URL="../WildDrive.vi"/>
 			<Item Name="WildDrive_v3.vi" Type="VI" URL="../WildDrive_v3.vi"/>
+			<Item Name="WildDrive_v5.vi" Type="VI" URL="../WildDrive_v5.vi"/>
 		</Item>
 		<Item Name="Driver Station" Type="Folder">
-			<Item Name="DashboardGet.vi" Type="VI" URL="../../../../../../../Dropbox/FRC 4265 Programming 2019/Robot/Development/DeepSpaceRobot/DashboardGet.vi"/>
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="DashboardGet.vi" Type="VI" URL="../DashboardGet.vi"/>
+			<Item Name="Dashboard Push.vi" Type="VI" URL="../Dashboard Push.vi"/>
 		</Item>
 		<Item Name="End Effectors" Type="Folder">
-			<Item Name="Elevator State Control.vi" Type="VI" URL="../../../../../../../Dropbox/FRC 4265 Programming 2019/Robot/Development/DeepSpaceRobot/Elevator State Control.vi"/>
+			<Item Name="Elevator State Select.vi" Type="VI" URL="../Elevator State Select.vi"/>
+			<Item Name="Master State Control.vi" Type="VI" URL="../Master State Control.vi"/>
 		</Item>
 		<Item Name="Global Variables" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Climb States.vi" Type="VI" URL="../Climb States.vi"/>
-			<Item Name="CurrentMonitoring.vi" Type="VI" URL="../../../../../../../Dropbox/FRC 4265 Programming 2019/Robot/Development/DeepSpaceRobot/CurrentMonitoring.vi"/>
+			<Item Name="CurrentMonitoring.vi" Type="VI" URL="../CurrentMonitoring.vi"/>
 			<Item Name="Indicators.vi" Type="VI" URL="../Indicators.vi"/>
 			<Item Name="Joystick RefNum.vi" Type="VI" URL="../Joystick RefNum.vi"/>
 			<Item Name="Motor Power.vi" Type="VI" URL="../Motor Power.vi"/>
 			<Item Name="RefNums_Actuators.vi" Type="VI" URL="../RefNums_Actuators.vi"/>
-			<Item Name="RefNumsDriverStation.vi" Type="VI" URL="../../../../../../../Dropbox/FRC 4265 Programming 2019/Robot/Development/DeepSpaceRobot/RefNumsDriverStation.vi"/>
+			<Item Name="RefNumsDriverStation.vi" Type="VI" URL="../RefNumsDriverStation.vi"/>
 			<Item Name="RefNums_Sensors.vi" Type="VI" URL="../RefNums_Sensors.vi"/>
 			<Item Name="Robot States.vi" Type="VI" URL="../Robot States.vi"/>
 			<Item Name="Sensor Readings.vi" Type="VI" URL="../Sensor Readings.vi"/>
@@ -127,7 +131,6 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
-			<Item Name="Elevator State Select.vi" Type="VI" URL="../../../../../../../Dropbox/FRC 4265 Programming 2019/Robot/Development/DeepSpaceRobot/Elevator State Select.vi"/>
 			<Item Name="Rising Edge Trigger.vi" Type="VI" URL="../Rising Edge Trigger.vi"/>
 			<Item Name="Time Above Threshold.vi" Type="VI" URL="../Time Above Threshold.vi"/>
 			<Item Name="Trigger Update Dynamic.vi" Type="VI" URL="../Trigger Update Dynamic.vi"/>
@@ -143,7 +146,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="RefNum Joystick.vi" Type="VI" URL="../RefNum Joystick.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
