@@ -112,6 +112,7 @@ AddOutputFilter chunkFilter
 		<Item Name="End Effectors" Type="Folder">
 			<Item Name="Cargo State Control.vi" Type="VI" URL="../Cargo State Control.vi"/>
 			<Item Name="Elevator State Select.vi" Type="VI" URL="../Elevator State Select.vi"/>
+			<Item Name="Get Sensor Values.vi" Type="VI" URL="../Get Sensor Values.vi"/>
 			<Item Name="Hatch State Control.vi" Type="VI" URL="../Hatch State Control.vi"/>
 			<Item Name="Master State Control.vi" Type="VI" URL="../Master State Control.vi"/>
 		</Item>
@@ -150,7 +151,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="Get Sensor Values.vi" Type="VI" URL="../Get Sensor Values.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
