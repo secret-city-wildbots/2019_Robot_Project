@@ -146,6 +146,9 @@ DirectoryIndex index.htm
 		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Sensors" Type="Folder">
+			<Item Name="Get Sensor Values.vi" Type="VI" URL="../Get Sensor Values.vi"/>
+		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Pulse.vi" Type="VI" URL="../Pulse.vi"/>
@@ -154,6 +157,20 @@ DirectoryIndex index.htm
 			<Item Name="Trigger Update Dynamic.vi" Type="VI" URL="../Trigger Update Dynamic.vi"/>
 			<Item Name="Trigger Update Dynamic.vim" Type="VI" URL="../Trigger Update Dynamic.vim"/>
 		</Item>
+<<<<<<< HEAD
+=======
+		<Item Name="Team Code" Type="Folder">
+			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
+			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
+			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
+			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
+			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
+			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
+			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
+			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
+			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
+		</Item>
+>>>>>>> e405824be97f48caf1aad7d6f2889637b21e9378
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
