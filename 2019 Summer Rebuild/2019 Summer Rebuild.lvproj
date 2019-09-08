@@ -103,7 +103,6 @@ DirectoryIndex index.htm
 			<Item Name="Auto Shifting.vi" Type="VI" URL="../Auto Shifting.vi"/>
 			<Item Name="Drive Base.vi" Type="VI" URL="../Drive Base.vi"/>
 			<Item Name="WildDrive.vi" Type="VI" URL="../WildDrive.vi"/>
-			<Item Name="WildDrive_v3.vi" Type="VI" URL="../WildDrive_v3.vi"/>
 			<Item Name="WildDrive_v5.vi" Type="VI" URL="../WildDrive_v5.vi"/>
 		</Item>
 		<Item Name="Driver Station" Type="Folder">
