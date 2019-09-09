@@ -1,5 +1,9 @@
 [My Computer]
+<<<<<<< HEAD
 My Computer = "127.0.0.1"
+=======
+My Computer = "192.168.0.43"
+>>>>>>> 3e136a8819bd72e044dc5fda6a3dfdf98a761203
 
 [Target]
 Target = "10.42.65.2"
