@@ -114,8 +114,8 @@ DirectoryIndex index.htm
 			<Item Name="Cargo State Control.vi" Type="VI" URL="../Cargo State Control.vi"/>
 			<Item Name="Drive Brake.vi" Type="VI" URL="../Drive Brake.vi"/>
 			<Item Name="Elevator State Select.vi" Type="VI" URL="../Elevator State Select.vi"/>
-			<Item Name="Get Sensor Values.vi" Type="VI" URL="../Get Sensor Values.vi"/>
 			<Item Name="Hatch State Control.vi" Type="VI" URL="../Hatch State Control.vi"/>
+			<Item Name="LEDStateControl.vi" Type="VI" URL="../LEDStateControl.vi"/>
 			<Item Name="Master State Control.vi" Type="VI" URL="../Master State Control.vi"/>
 		</Item>
 		<Item Name="FIRST Code" Type="Folder">
@@ -145,13 +145,18 @@ DirectoryIndex index.htm
 		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Sensors" Type="Folder">
+			<Item Name="Get Sensor Values.vi" Type="VI" URL="../Get Sensor Values.vi"/>
+		</Item>
 		<Item Name="Support Code" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="Trigger Update Dynamic.vi" Type="VI" URL="../Trigger Update Dynamic.vi"/>
 			<Item Name="Pulse.vi" Type="VI" URL="../Pulse.vi"/>
 			<Item Name="Rising Edge Trigger.vi" Type="VI" URL="../Rising Edge Trigger.vi"/>
 			<Item Name="Time Above Threshold.vi" Type="VI" URL="../Time Above Threshold.vi"/>
-			<Item Name="Trigger Update Dynamic.vi" Type="VI" URL="../Trigger Update Dynamic.vi"/>
 			<Item Name="Trigger Update Dynamic.vim" Type="VI" URL="../Trigger Update Dynamic.vim"/>
+			<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
@@ -771,7 +776,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_localDestDirType" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
