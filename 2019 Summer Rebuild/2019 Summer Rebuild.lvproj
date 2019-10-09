@@ -147,7 +147,7 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Get Sensor Values.vi" Type="VI" URL="../Get Sensor Values.vi"/>
-			<Item Name="Pigeon Test.vi" Type="VI" URL="../../../../../../../Dropbox/FRC 4265 Programming 2019/Robot/Development/DeepSpaceRobot/Pigeon Test.vi"/>
+			<Item Name="Pigeon Sensor Readings.vi" Type="VI" URL="../Pigeon Sensor Readings.vi"/>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
